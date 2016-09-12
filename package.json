@@ -1,0 +1,24 @@
+{
+  "name": "bug_test",
+  "version": "1.0.0",
+  "description": "A test",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "author": "Jingshao Chen",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "express": "^4.14.0",
+    "express-restify-mongoose": "^4.1.1",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.4.19",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-google": "^0.6.0"
+  }
+}

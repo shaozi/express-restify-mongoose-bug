@@ -6,7 +6,10 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "author": "Jingshao Chen",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
@@ -15,10 +18,12 @@
     "express-restify-mongoose": "^4.1.1",
     "method-override": "^2.3.6",
     "mongoose": "^4.4.19",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
     "eslint-config-google": "^0.6.0"
-  }
+  },
+  "snyk": true
 }

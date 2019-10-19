@@ -14,7 +14,7 @@
     "express": "^4.14.0",
     "express-restify-mongoose": "^4.1.1",
     "method-override": "^2.3.6",
-    "mongoose": "^4.4.19",
+    "mongoose": "^5.4.10",
     "winston": "^2.2.0"
   },
   "devDependencies": {
